@@ -19,7 +19,7 @@
           <a href="#" class="navbar-brand d-flex align-items-center">
             <img src="assets/logo.png" class="img-logo">
           </a>
-          <a href="#" class="btn btn-primary my-2">Pobierz wtyczkę</a>
+          <a href="http://dormitorium.kei.pl/nac-app/" class="btn btn-primary my-2">Pobierz wtyczkę</a>
         </div>
       </div>
     </header>
