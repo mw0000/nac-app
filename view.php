@@ -20,7 +20,7 @@
     <header>
       <div class="navbar navbar-light bg-light box-shadow">
         <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
+          <a href="http://dormitorium.kei.pl/nac-app/" class="navbar-brand d-flex align-items-center">
             <img src="assets/logo.png" class="img-logo">
           </a>
           <a href="#" class="btn btn-primary my-2">Pobierz wtyczkę</a>
