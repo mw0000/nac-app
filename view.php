@@ -62,7 +62,7 @@
 
           <div class="col-md-3">
               <div class="card mb-4 box-shadow">
-                <a href="/view.php?img=<?php print $i;?>"><img class="card-img-top" src="img/<?php print $i;?>.jpg" alt="Card image cap"></a>
+                <a href="./view.php?img=<?php print $i;?>"><img class="card-img-top" src="img/<?php print $i;?>.jpg" alt="Card image cap"></a>
               </div>
             </div>
 
@@ -86,8 +86,8 @@
         <![endif]-->
         
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="/assets/js/jquery.event.move.js"></script>
-        <script src="/assets/js/jquery.twentytwenty.js"></script>
+        <script src="./assets/js/jquery.event.move.js"></script>
+        <script src="./assets/js/jquery.twentytwenty.js"></script>
 
         <script>
 

@@ -43,51 +43,51 @@
             </div>
             <div class=" grid-item">
               <div class="card mb-4 box-shadow">
-                <a href="/view.php?img=1"><img class="card-img-top" src="img/1.jpg" alt="Card image cap"></a>
+                <a href="./view.php?img=1"><img class="card-img-top" src="img/1.jpg" alt="Card image cap"></a>
                 
               </div>
             </div>
             <div class=" grid-item">
               <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=4"><img class="card-img-top" src="img/4.jpg" alt="Card image cap"></a>
-                
-              </div>
-            </div>
-
-            <div class=" grid-item">
-              <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=2"><img class="card-img-top" src="img/2.jpg" alt="Card image cap"></a>
-                
-              </div>
-            </div>
-            <div class=" grid-item">
-              <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=5"><img class="card-img-top" src="img/5.jpg" alt="Card image cap"></a>
-                
-              </div>
-            </div>
-            <div class=" grid-item">
-              <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=7"><img class="card-img-top" src="img/7.jpg" alt="Card image cap"></a>
+              <a href="./view.php?img=4"><img class="card-img-top" src="img/4.jpg" alt="Card image cap"></a>
                 
               </div>
             </div>
 
             <div class=" grid-item">
               <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=6"><img class="card-img-top" src="img/6.jpg" alt="Card image cap"></a>
+              <a href="./view.php?img=2"><img class="card-img-top" src="img/2.jpg" alt="Card image cap"></a>
                 
               </div>
             </div>
             <div class=" grid-item">
               <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=8"><img class="card-img-top" src="img/8.jpg" alt="Card image cap"></a>
+              <a href="./view.php?img=5"><img class="card-img-top" src="img/5.jpg" alt="Card image cap"></a>
                 
               </div>
             </div>
             <div class=" grid-item">
               <div class="card mb-4 box-shadow">
-              <a href="/view.php?img=9"><img class="card-img-top" src="img/9.jpg" alt="Card image cap"></a>
+              <a href="./view.php?img=7"><img class="card-img-top" src="img/7.jpg" alt="Card image cap"></a>
+                
+              </div>
+            </div>
+
+            <div class=" grid-item">
+              <div class="card mb-4 box-shadow">
+              <a href="./view.php?img=6"><img class="card-img-top" src="img/6.jpg" alt="Card image cap"></a>
+                
+              </div>
+            </div>
+            <div class=" grid-item">
+              <div class="card mb-4 box-shadow">
+              <a href="./view.php?img=8"><img class="card-img-top" src="img/8.jpg" alt="Card image cap"></a>
+                
+              </div>
+            </div>
+            <div class=" grid-item">
+              <div class="card mb-4 box-shadow">
+              <a href="./view.php?img=9"><img class="card-img-top" src="img/9.jpg" alt="Card image cap"></a>
                 
               </div>
             </div>
