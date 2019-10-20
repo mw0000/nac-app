@@ -102,14 +102,18 @@
         <![endif]-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.min.js" integrity="sha256-7hl8k0pvDP18Fn7+fxHRXxTyUjZRnXcLGBWGoEytZbE=" crossorigin="anonymous"></script>
         <script>
         
-        $('.grid').masonry({
+        var $grid = $('.grid').masonry({
             // options
             itemSelector: '.grid-item',
-            columnWidth: 100
+            columnWidth: 100,
+            fitWidth: true
         });
-        
+        $grid.imagesLoaded().progress( function() {
+          $grid.masonry('layout');
+        });
         </script>
     </body>
 </html>

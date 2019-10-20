@@ -61,6 +61,7 @@
   .grid-item {
       max-width: 300px;
       padding: 3px;
+      float: left;
   }
 
   .grid-item--width2 {
