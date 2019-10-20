@@ -1,0 +1,93 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  .img-logo {
+      width: 100px;
+  }
+
+  
+
+  body.first {
+      background: url('main-theme.jpg') top center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+
+  .navbar, .jumbotron {
+      background: transparent !important;
+  }
+
+  .jumbotron-first {
+      height: 60vh;
+  }
+
+  .grid-item {
+      max-width: 300px;
+      padding: 3px;
+  }
+
+  .grid-item--width2 {
+    width: 600px;
+    padding: 10px;
+  }
+
+  .app-gallery {
+      text-align: justify;
+  }
+  .make-greyscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  
+  #compare {
+    margin: 0 auto; 
+    text-align:center;
+  }
+  
+  #compare img {
+
+    max-width: 800px;
+
+   }
+
+  .title-info {
+      font-size: 26px;
+      margin-top: 20px;
+  } 
