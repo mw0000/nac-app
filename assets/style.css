@@ -92,3 +92,8 @@
       font-size: 26px;
       margin-top: 20px;
   } 
+
+  .card-img-top-2 {
+    height: 261px !important;
+    width: 261px;
+  }

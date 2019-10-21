@@ -38,8 +38,7 @@
                 <img src="img/<?php print $_GET['img'];?>.jpg"></p>
               </div>
           <p class="title-info">
-          Portret aktorki<br>
-          1932
+          Sed accumsan a eros vel fermentum
           </p>
         </div>
     </section>
@@ -48,23 +47,24 @@
 
 
     <div class="album py-5 bg-light">
-        <div class="container">
+        <div class="container-fluid">
 
           <div class="row">
 
         <?php 
         
-        $imgs = range(1,4);
-
+        $range = range(1,50);
+        shuffle($range);
+        $imgs = array_slice($range,0,4);
         ?>
 
           <?php foreach($imgs as $i) : ?>   
 
           <div class="col-md-3">
-              <div class="card mb-4 box-shadow card-view">
-                <a href=""><img class="card-img-top card-img-top-2" src="img/tematy/temat<?php print $i;?>.png" alt="Card image cap"></a>
+              <div class="card mb-4 box-shadow">
+                <a href="./view.php?img=<?php print $i;?>"><img class="card-img-top" src="img/<?php print $i;?>.jpg" alt="Card image cap"></a>
               </div>
-          </div>
+            </div>
 
            <?php endforeach;?> 
 
