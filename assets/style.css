@@ -97,3 +97,9 @@
     height: 261px !important;
     width: 261px;
   }
+
+  .more {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+  }

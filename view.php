@@ -12,6 +12,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
         <link rel="stylesheet" href="assets/style.css">
         <link rel="stylesheet" href="assets/twentytwenty.css">
     </head>
@@ -41,6 +42,11 @@
           Portret aktorki<br>
           1932
           </p>
+          <div class="lot-of-buttons">
+          <button type="button" class="btn btn-outline-secondary"><i class="fab fa-facebook-square"></i> Udostępnij</button>
+          <button type="button" class="btn btn-outline-secondary"><i class="fab fa-twitter-square"></i> Tweetuj</button>
+          <button type="button" class="btn btn-outline-secondary"><i class="fas fa-download"></i> Pobierz</button>
+          </div>
         </div>
     </section>
 
@@ -49,6 +55,11 @@
 
     <div class="album py-5 bg-light">
         <div class="container">
+
+          <div class="more">
+          Chciałbyś zobaczyć więcej zdjęć o tej tematyce? <br>
+          Zajrzyj na szukajwarchiwach.gov.pl
+          </div>  
 
           <div class="row">
 
